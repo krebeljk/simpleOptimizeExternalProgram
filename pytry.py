@@ -1,3 +1,5 @@
 #!usr/bin/env python
 
-print("hello world!")
+import subprocess as sp
+
+comProc = sp.run(["echo", "Hello world!"])
