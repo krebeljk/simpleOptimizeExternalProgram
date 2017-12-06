@@ -1,4 +1,4 @@
-# SimpleOptimizeExternalRun
+# simpleOptimizeExternalProgram
 
 Extremely simple optimization of an externally run program (e.g. simulation).
 
