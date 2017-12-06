@@ -1,5 +1,9 @@
 #!usr/bin/env python
 
 import subprocess as sp
+import numpy as np
 
-comProc = sp.run(["echo", "Hello world!"])
+a = 3.2
+com = "echo " + str(a**2) + " > result.txt"
+
+sp.run(com, shell=True)
