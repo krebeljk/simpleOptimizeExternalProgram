@@ -2,4 +2,4 @@
 
 import subprocess as sp
 
-comProc = sp.run(["echo", "Hello world!"])
+comProc = sp.run([r"sed -i 's/a\s*=\s*[0-9]*\.[0-9]*/a = 7.8/g' calc.py"], shell=True)
